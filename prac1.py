@@ -1,7 +1,8 @@
 def age100():
-    name = input('Enter your Name: ')
-    age = eval(input('Enter your age: ')) 
-    yr = (2024-age)+100
-    print(name +' Your age will be 100 in the year of '+ str(yr))
+    name = input('Enter your name: ')
+    age = input('Enter your age: ')
+    year = (2023 - int(age))+100
+
+    print('Dear '+ name+' your age will be 100 in the year of '+str(year))
 
 age100()
